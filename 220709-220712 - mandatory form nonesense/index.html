@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Nonesense</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+        <div class="container" id="field-input">
+            <h2>Submit your fields</h2>
+            <form action="POST" method="post">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="fav-colour">What is you fav colour</label>
+                <select name="fav-colour" id="fav-colour">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+                <fieldset>
+                    <legend>Pick one:</legend>
+                    <label for="andre3000">Andre 3000</label>
+                    <input type="radio" name="athing" id="andre3000">
+                    <label for="startrek">Star Trek</label>
+                    <input type="radio" name="athing" id="startrek">
+                    <label for="volcano">Volcano</label>
+                    <input type="radio" name="athing" id="volcano">
+                </fieldset>
+            </form>
+        </div>
+        <div class="container" id="field-selection">
+            <h2>Which fields should be mandatory</h2>
+            <form action="POST" method="post"></form>
+        </div>
+    </main>
+</body>
+</html>
