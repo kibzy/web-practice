@@ -29,11 +29,17 @@
                     <label for="volcano">Volcano</label>
                     <input type="radio" name="athing" id="volcano">
                 </fieldset>
+                <button type="submit">submit</button>
             </form>
         </div>
         <div class="container" id="field-selection">
             <h2>Which fields should be mandatory</h2>
-            <form action="POST" method="post"></form>
+            <form action="POST" method="post">
+                <input type="checkbox" id="mandatory-email" name="mandatory-email" value="y-email"><label>Email</label>
+                <input type="checkbox" id="mandatory-colour" name="mandatory-colour" value="y-colour"><label>Colour</label>
+                <input type="checkbox" id="mandatory-random" name="mandatory-random" value="y-random"><label>Random</label>
+                <button type="submit">Make them mandatory!!!</button>
+            </form>
         </div>
     </main>
 </body>
